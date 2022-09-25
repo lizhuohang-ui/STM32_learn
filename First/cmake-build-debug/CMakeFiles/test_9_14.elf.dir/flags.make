@@ -7,11 +7,11 @@ ASM_FLAGS = -g   -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DSTM32F103xE -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\Clion\Project\STM32_Project\test_9_14\Core\Inc -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\CMSIS\Include 
+ASM_INCLUDES = -ID:\Clion\Project\STM32_Project\First\Core\Inc -ID:\Clion\Project\STM32_Project\First\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Clion\Project\STM32_Project\First\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Clion\Project\STM32_Project\First\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Clion\Project\STM32_Project\First\Drivers\CMSIS\Include 
 
 C_FLAGS = -g   -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DSTM32F103xE -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\Clion\Project\STM32_Project\test_9_14\Core\Inc -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Clion\Project\STM32_Project\test_9_14\Drivers\CMSIS\Include 
+C_INCLUDES = -ID:\Clion\Project\STM32_Project\First\Core\Inc -ID:\Clion\Project\STM32_Project\First\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Clion\Project\STM32_Project\First\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Clion\Project\STM32_Project\First\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Clion\Project\STM32_Project\First\Drivers\CMSIS\Include 
 

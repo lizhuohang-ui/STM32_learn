@@ -69,6 +69,7 @@ CMakeFiles/test_9_14.elf.dir/Core/Src/retarget.c.obj: ../Drivers/STM32F1xx_HAL_D
 CMakeFiles/test_9_14.elf.dir/Core/Src/retarget.c.obj: ../Core/Src/retarget.c
 
 CMakeFiles/test_9_14.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Inc/main.h
+CMakeFiles/test_9_14.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Inc/retarget.h
 CMakeFiles/test_9_14.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
 CMakeFiles/test_9_14.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
 CMakeFiles/test_9_14.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h

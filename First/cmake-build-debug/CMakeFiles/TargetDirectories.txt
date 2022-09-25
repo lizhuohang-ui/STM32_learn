@@ -1,3 +1,3 @@
-D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/CMakeFiles/test_9_14.elf.dir
-D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Clion/Project/STM32_Project/First/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Clion/Project/STM32_Project/First/cmake-build-debug/CMakeFiles/test_9_14.elf.dir
+D:/Clion/Project/STM32_Project/First/cmake-build-debug/CMakeFiles/rebuild_cache.dir

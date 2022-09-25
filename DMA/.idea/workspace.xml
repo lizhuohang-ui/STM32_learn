@@ -46,11 +46,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OCD DMA" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DMA" TARGET_NAME="DMA.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="DMA" RUN_TARGET_NAME="DMA.elf">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Clion\Project\STM32_Project\DMA\dap.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
@@ -76,6 +71,7 @@
       <workItem from="1663773906591" duration="1189000" />
       <workItem from="1663821482490" duration="204000" />
       <workItem from="1663925857992" duration="4817000" />
+      <workItem from="1664010490230" duration="32000" />
     </task>
     <servers />
   </component>

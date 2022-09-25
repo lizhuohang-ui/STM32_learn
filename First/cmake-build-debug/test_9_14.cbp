@@ -8,39 +8,39 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug"/>
+				<Option working_dir="D:/Clion/Project/STM32_Project/First/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug"/>
+				<Option working_dir="D:/Clion/Project/STM32_Project/First/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_9_14.elf">
-				<Option output="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/test_9_14.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug"/>
+				<Option output="D:/Clion/Project/STM32_Project/First/cmake-build-debug/test_9_14.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion/Project/STM32_Project/First/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Core/Inc"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Core/Inc"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -49,26 +49,26 @@
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_9_14.elf"/>
-					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_9_14.elf"/>
+					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_9_14.elf/fast">
-				<Option output="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/test_9_14.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug"/>
+				<Option output="D:/Clion/Project/STM32_Project/First/cmake-build-debug/test_9_14.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion/Project/STM32_Project/First/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Core/Inc"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Core/Inc"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -77,225 +77,225 @@
 					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_9_14.elf/fast"/>
-					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_9_14.elf/fast"/>
+					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug"/>
+				<Option working_dir="D:/Clion/Project/STM32_Project/First/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/test_9_14/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Vscode/Mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/Project/STM32_Project/First/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Inc/main.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Inc/main.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Inc/stm32f1xx_hal_conf.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Inc/retarget.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Inc/stm32f1xx_it.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/main.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Inc/stm32f1xx_it.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/retarget.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/main.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/retarget.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/retarget.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/stm32f1xx_hal_msp.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/stm32f1xx_it.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/stm32f1xx_it.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/syscalls.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/syscalls.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Core/Src/system_stm32f1xx.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Core/Src/system_stm32f1xx.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/STM32F103RCTx_FLASH.ld">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/STM32F103RCTx_FLASH.ld">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/startup/startup_stm32f103xe.s">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/startup/startup_stm32f103xe.s">
 			<Option target="test_9_14.elf"/>
 		</Unit>
-		<Unit filename="D:/Clion/Project/STM32_Project/test_9_14/CMakeLists.txt">
+		<Unit filename="D:/Clion/Project/STM32_Project/First/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
